@@ -9,3 +9,4 @@ const print = function(greet, adj){
 console.log(greet, this.fullname(), 'you are', adj)
 }.bind(person);
 print('Hello', 'awesome');
+
